@@ -10,6 +10,7 @@ export class TextInput extends Component {
     return (
       <input
         className='input-search'
+        placeholder='Type your search'
         onChange={onChange}
         value={searchValue}
         type='search'
