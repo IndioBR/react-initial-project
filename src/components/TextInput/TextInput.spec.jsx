@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { TextInput } from '.'
+import { TextInput } from '.';
 
 describe('<TextInput />', () => {
   it('should have a value of searchValue', () => {
@@ -30,4 +30,4 @@ describe('<TextInput />', () => {
     const { container } = render(<TextInput handleChange={fn} />);
     expect(container).toMatchSnapshot();
   });
-}); 
+});
